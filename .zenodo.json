@@ -1,0 +1,41 @@
+{
+  "upload_type": "software",
+  "title": "Hipócrates — Motor de Apoyo Clínico Computable (SMNC-5+)",
+  "description": "<p>Hipócrates es un motor determinista de apoyo clínico computable basado en el Sistema Médico Núcleo Computable SMNC-5+. Implementa cinco módulos clínicos formales: razonamiento bayesiano secuencial (SPRT de Wald), interpretación gasométrica ácido-base (Henderson-Hasselbalch + aproximación Stewart-Fencl), análisis de utilidad clínica por curva de decisión (DCA), farmacocinética monocompartimental con 10 modos de cálculo (PK/TDM Core v2) y estratificación de sepsis por criterios Sepsis-3 (Sepsis_Protocol_Engine v1).</p><p>El sistema incluye validación formal de schema e inputs (Clinical_IO_Schema + Units_Validity_Gate v2), auditoría criptográfica SHA-256 dual (sha256_input determinista + sha256_event por ejecución), orquestador único (Hipocrates_Orchestrator) y consola visual local en Streamlit. Suite de 338 tests pytest verificados en Python 3.10 y 3.13.</p><p><strong>ADVERTENCIA:</strong> Este sistema es un prototipo de investigación computable. No ha sido validado clínicamente en poblaciones reales. No está indicado para uso clínico autónomo ni como herramienta diagnóstica o terapéutica. Los outputs requieren interpretación por personal clínico competente.</p>",
+  "version": "0.5.0",
+  "language": "spa",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Pintor, Jules"
+    }
+  ],
+  "keywords": [
+    "clinical decision support",
+    "pharmacokinetics",
+    "Bayesian inference",
+    "acid-base interpretation",
+    "sepsis",
+    "decision curve analysis",
+    "research prototype",
+    "computable medicine",
+    "SPRT",
+    "TDM",
+    "Sepsis-3",
+    "Stewart-Fencl"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/julespintor-tech/hipocrates/releases/tag/v0.5.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/julespintor-tech/hipocrates",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Prototipo de investigación. Sin validación clínica en poblaciones reales. Sin despliegue de producción. La consola Streamlit es una demo local. El audit log (outputs/audit_log.jsonl) se genera en ejecución y no está incluido en el depósito. Campos pendientes de completar por el autor antes del depósito: ORCID, afiliación institucional, financiación. DOI asignado por Zenodo tras el depósito."
+}
