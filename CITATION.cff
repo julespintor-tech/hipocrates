@@ -10,7 +10,7 @@ version: "0.5.0"
 date-released: "2026-04-08"
 authors:
   - name: "Jules Pintor"
-repository-code: "https://github.com/[usuario]/hipocrates"
+repository-code:repository-code: "https://github.com/julespintor-tech/hipocrates"
 abstract: >
   Hipócrates es un motor determinista de apoyo clínico computable basado en el
   Sistema Médico Núcleo Computable SMNC-5+. Implementa razonamiento bayesiano
@@ -31,4 +31,4 @@ keywords:
   - decision curve analysis
   - research prototype
   - computable medicine
-license: "Pendiente — ver README"
+license: license: MIT
