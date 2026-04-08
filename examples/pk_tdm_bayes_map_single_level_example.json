@@ -1,0 +1,23 @@
+{
+  "patient_id": "PK-V2-MAP-001",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "tdm_bayes_map",
+    "dose_mg": 1000,
+    "tau_h": 12,
+    "route": "iv",
+    "F": 1.0,
+    "observed_concentrations": [
+      {"time_h": 6.0, "conc_mg_L": 12.5}
+    ],
+    "prior_cl_mean_L_h": 3.5,
+    "prior_cl_sd_L_h": 1.5,
+    "prior_vd_mean_L": 30,
+    "prior_vd_sd_L": 10,
+    "sigma_obs_mg_L": 2.0,
+    "optimize_vd": false
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "TDM Bayes-MAP con 1 sola concentración observada. Vancomicina 1000 mg/12h IV. Nivel a las 6h post-dosis: 12.5 mg/L. Prior CL = 3.5 ± 1.5 L/h (prior domina con 1 sola observación). Vd fijo en prior. Estimación orientativa — siempre confirmar con más niveles."
+}

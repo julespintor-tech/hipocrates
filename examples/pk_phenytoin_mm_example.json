@@ -1,0 +1,18 @@
+{
+  "patient_id": "PK-DEMO-003",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "phenytoin_mm",
+    "vmax_mg_day": 500,
+    "km_mg_L": 4.0,
+    "dose_guess_mg_day": 300,
+    "target_range_mg_L": [10, 20],
+    "dt_h": 1.0,
+    "max_days": 30,
+    "c0_mg_L": 0.0,
+    "vd_L": 50
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "Fenitoína Michaelis-Menten. Vmax=500mg/día, Km=4mg/L. Ajuste hasta ventana 10-20mg/L."
+}

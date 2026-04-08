@@ -1,0 +1,14 @@
+{
+  "patient_id": "PK-V2-CG-001",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "cockcroft_gault",
+    "age": 68,
+    "sex": "M",
+    "weight_kg": 78,
+    "serum_creatinine_mg_dL": 1.8
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "Varón 68 años, 78 kg, Cr sérica 1.8 mg/dL. Estimación CLCr por Cockcroft-Gault. Deterioro renal moderado esperado (~50 mL/min)."
+}

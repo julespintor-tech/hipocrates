@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >
+  Si usas este software en trabajo de investigación, por favor cita
+  el repositorio usando los metadatos de este archivo.
+  Este archivo sigue el formato Citation File Format (CFF).
+  Nota: este proyecto no tiene aún un DOI ni publicación formal.
+  La cita a continuación es una sugerencia de referencia directa al repositorio.
+title: "Hipócrates — Motor de Apoyo Clínico Computable (SMNC-5+)"
+version: "0.5.0"
+date-released: "2026-04-08"
+authors:
+  - name: "Jules Pintor"
+repository-code: "https://github.com/[usuario]/hipocrates"
+abstract: >
+  Hipócrates es un motor determinista de apoyo clínico computable basado en el
+  Sistema Médico Núcleo Computable SMNC-5+. Implementa razonamiento bayesiano
+  secuencial (SPRT de Wald), interpretación gasométrica ácido-base (H-H +
+  aproximación Stewart-Fencl), análisis de utilidad clínica por curva de
+  decisión (DCA), farmacocinética monocompartimental con 10 modos (PK/TDM Core v2)
+  y estratificación de sepsis por criterios Sepsis-3 (Sepsis_Protocol_Engine v1).
+  El sistema incluye validación formal de schema e inputs, auditoría criptográfica
+  SHA-256 dual y salida homogénea estructurada. Es un prototipo de investigación:
+  no ha sido validado clínicamente en poblaciones reales y no está indicado para
+  uso clínico autónomo.
+keywords:
+  - clinical decision support
+  - pharmacokinetics
+  - Bayesian inference
+  - acid-base interpretation
+  - sepsis
+  - decision curve analysis
+  - research prototype
+  - computable medicine
+license: "Pendiente — ver README"

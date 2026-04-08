@@ -1,0 +1,22 @@
+{
+  "patient_id": "PK-V2-RENAL-001",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "target_dosing_renal",
+    "age": 72,
+    "sex": "F",
+    "weight_kg": 65,
+    "serum_creatinine_mg_dL": 1.4,
+    "base_cl_L_h": 3.5,
+    "drug_clcr_reference_mL_min": 100,
+    "vd_L": 30,
+    "tau_h": 12,
+    "F": 1.0,
+    "target_css_mg_L": 15,
+    "therapeutic_window": [10, 20],
+    "calc_type": "both"
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "Mujer 72 años, 65 kg, Cr 1.4 mg/dL. Vancomicina: CL base 3.5 L/h para CLCr ref 100 mL/min. Calcula CLCr por Cockcroft-Gault y ajusta CL proporcionalmente. Css objetivo 15 mg/L, ventana 10-20 mg/L."
+}

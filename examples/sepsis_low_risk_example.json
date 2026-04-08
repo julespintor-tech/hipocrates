@@ -1,0 +1,18 @@
+{
+  "_comment": "Sepsis_Protocol_Engine — Ejemplo 1: Sospecha baja de sepsis",
+  "_description": "Paciente con fiebre y leucocitosis leve. Sin sospecha infecciosa documentada clínicamente. qSOFA 0. Sin señales de disfunción orgánica. Lactato normal. MAP adecuada. Sin vasopresor. Se espera: low_suspicion / observe.",
+  "patient_id": "PAC-SEP-LOW-001",
+  "module": "sepsis_protocol",
+  "inputs": {
+    "suspected_infection": false,
+    "rr": 16,
+    "sbp": 118,
+    "mental_status_altered": false,
+    "map_mmHg": 82.0,
+    "lactate_mmol_L": 1.1,
+    "vasopressor": false,
+    "urine_output_ml_kg_h": 0.9
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0"
+}

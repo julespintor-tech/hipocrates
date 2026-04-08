@@ -1,0 +1,14 @@
+{
+  "patient_id": "PK-DEMO-001",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "iv_bolus",
+    "dose_mg": 500,
+    "vd_L": 30,
+    "cl_L_h": 3.5,
+    "time_h": 4
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "Vancomicina IV bolus (ejemplo orientativo). D=500mg, Vd=30L, CL=3.5L/h. C(4h)=?"
+}

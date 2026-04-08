@@ -1,0 +1,16 @@
+{
+  "patient_id": "PK-DEMO-004",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "oral_bateman",
+    "dose_mg": 250,
+    "F": 0.85,
+    "ka_h": 1.2,
+    "cl_L_h": 5.0,
+    "vd_L": 40,
+    "time_h": 2
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "Oral Bateman ejemplo (amoxicilina orientativo). D=250mg, F=0.85, ka=1.2/h. C(2h)=?"
+}

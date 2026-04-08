@@ -1,0 +1,21 @@
+{
+  "_comment": "Sepsis_Protocol_Engine — Ejemplo 2: Sepsis probable",
+  "_description": "Paciente con sospecha infecciosa (neumonía probable). qSOFA 2 (FR 24, PAS 94, sin alteración mental). Lactato 2.3 mmol/L. MAP 68 mmHg. Sin vasopresor. Con datos SOFA parcial (creatinina y plaquetas). Se espera: sepsis_probable / start_treatment.",
+  "patient_id": "PAC-SEP-MOD-002",
+  "module": "sepsis_protocol",
+  "inputs": {
+    "suspected_infection": true,
+    "rr": 24,
+    "sbp": 94,
+    "mental_status_altered": false,
+    "map_mmHg": 68.0,
+    "lactate_mmol_L": 2.3,
+    "vasopressor": false,
+    "urine_output_ml_kg_h": 0.4,
+    "creatinine_mg_dL": 1.6,
+    "bilirubin_mg_dL": 0.9,
+    "platelets_k_uL": 130
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0"
+}

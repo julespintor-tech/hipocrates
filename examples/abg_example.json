@@ -1,0 +1,25 @@
+{
+  "patient_id": "PAC-002",
+  "module": "abg_hh_stewart",
+  "inputs": {
+    "ph":              7.28,
+    "paco2":           32.0,
+    "hco3":            14.5,
+    "na":              138.0,
+    "k":               4.2,
+    "cl":              108.0,
+    "albumin_g_dl":    3.8,
+    "phosphate_mg_dl": 3.2,
+    "ca_meq_l":        4.8,
+    "mg_meq_l":        1.7,
+    "lactate_meq_l":   4.5
+  },
+  "constraints": {
+    "validity": {
+      "ph_range":   [6.5, 8.0],
+      "paco2_range":[5.0, 120.0],
+      "hco3_range": [1.0, 60.0]
+    }
+  },
+  "version": "SMNC-5+_v1.0"
+}

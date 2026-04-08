@@ -1,0 +1,16 @@
+{
+  "patient_id": "PAC-003",
+  "module": "dca",
+  "inputs": {
+    "tp_rate":    0.82,
+    "fp_rate":    0.18,
+    "prevalence": 0.20,
+    "theta":      0.15,
+    "theta_range":[0.05, 0.50]
+  },
+  "constraints": {
+    "clinical_context": "modelo_tromboembolismo_pulmonar",
+    "auroc_reported":   0.86
+  },
+  "version": "SMNC-5+_v1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "PK-DEMO-002",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "target_dosing",
+    "target_css_mg_L": 15,
+    "cl_L_h": 3.5,
+    "vd_L": 30,
+    "tau_h": 8,
+    "F": 1.0,
+    "therapeutic_window": [10, 20],
+    "calc_type": "both"
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "Vancomicina target dosing. Css objetivo=15 mg/L, ventana 10-20 mg/L. Calcular LD y MD."
+}

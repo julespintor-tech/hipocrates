@@ -1,0 +1,40 @@
+# ── Python bytecode ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Build / packaging ─────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+
+# ── Runtime outputs (audit log contiene datos reales de ejecución) ─────────────
+outputs/audit_log.jsonl
+
+# ── Archivos de diagnóstico local (contienen rutas del sistema) ───────────────
+diagnostico_resultado.txt
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+# Solo excluir secretos/cache de streamlit, no la configuración del proyecto
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# ── IDEs / entornos ───────────────────────────────────────────────────────────
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+*.DS_Store
+
+# ── Archivos locales del sistema operativo ────────────────────────────────────
+Thumbs.db
+desktop.ini

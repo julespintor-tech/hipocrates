@@ -1,0 +1,23 @@
+{
+  "_comment": "Sepsis_Protocol_Engine — Ejemplo 3: Choque séptico probable",
+  "_description": "Paciente con sospecha de sepsis abdominal (peritonitis). qSOFA 3 (FR 28, PAS 82, alteración del estado mental). MAP 54 mmHg. Lactato 4.8 mmol/L. Vasopresor activo. Oliguria severa. SOFA parcial: creatinina elevada, bilirrubina elevada, plaquetas bajas, PaO2/FiO2 bajo con VM. Se espera: septic_shock_probable / start_treatment.",
+  "patient_id": "PAC-SEP-SHOCK-003",
+  "module": "sepsis_protocol",
+  "inputs": {
+    "suspected_infection": true,
+    "rr": 28,
+    "sbp": 82,
+    "mental_status_altered": true,
+    "map_mmHg": 54.0,
+    "lactate_mmol_L": 4.8,
+    "vasopressor": true,
+    "urine_output_ml_kg_h": 0.15,
+    "creatinine_mg_dL": 3.2,
+    "bilirubin_mg_dL": 2.8,
+    "platelets_k_uL": 68,
+    "pao2_fio2": 165,
+    "mechanical_ventilation": true
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0"
+}

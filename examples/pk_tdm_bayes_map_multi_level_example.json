@@ -1,0 +1,25 @@
+{
+  "patient_id": "PK-V2-MAP-002",
+  "module": "pk_tdm",
+  "inputs": {
+    "mode": "tdm_bayes_map",
+    "dose_mg": 1000,
+    "tau_h": 12,
+    "route": "iv",
+    "F": 1.0,
+    "observed_concentrations": [
+      {"time_h": 1.0, "conc_mg_L": 28.0},
+      {"time_h": 6.0, "conc_mg_L": 14.2},
+      {"time_h": 11.0, "conc_mg_L": 7.8}
+    ],
+    "prior_cl_mean_L_h": 3.5,
+    "prior_cl_sd_L_h": 1.5,
+    "prior_vd_mean_L": 30,
+    "prior_vd_sd_L": 10,
+    "sigma_obs_mg_L": 1.5,
+    "optimize_vd": true
+  },
+  "constraints": {},
+  "version": "SMNC-5+_v1.0",
+  "_comment": "TDM Bayes-MAP con 3 concentraciones observadas (pico, intermedia, valle). Vancomicina 1000 mg/12h IV en SS. Con múltiples niveles y optimize_vd=true, el sistema estima CL y Vd por descenso coordenado (sección dorada). Estimación más informada que con 1 nivel. Igual de orientativa — confirmar clínicamente."
+}
