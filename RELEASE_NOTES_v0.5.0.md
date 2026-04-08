@@ -72,7 +72,7 @@ streamlit run app/streamlit_app.py
 
 - **Sin validación clínica**: los cálculos implementan fórmulas estándar pero no han sido validados en poblaciones reales.
 - **Sin despliegue de producción**: la consola Streamlit es una demo local. No existe frontend público.
-- **Sin licencia activa**: la selección de licencia está pendiente de decisión del autor. Ver README.
+- **Licencia MIT**: código publicado bajo MIT License. Ver archivo `LICENSE`.
 - **Audit log local**: `outputs/audit_log.jsonl` se genera en ejecución y está excluido del repositorio.
 - **Parámetros PK poblacionales**: sin individualización por fármaco ni conexión a laboratorio real.
 

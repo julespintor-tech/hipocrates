@@ -495,5 +495,4 @@ Un archivo `CITATION.cff` está incluido en este repositorio con los metadatos f
 - Módulos clínicos: 5 (Bayes SPRT, ABG H-H/Stewart, DCA, PK/TDM Core v2, Sepsis v1)
 - Validación clínica: **ninguna** — prototipo computacional únicamente
 - Despliegue en producción: **no existe**
-docs: update README license and citation link
 
