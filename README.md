@@ -469,7 +469,7 @@ Este sistema es un **prototipo de investigación**. En ningún caso debe usarse 
 
 ## Licencia
 
-**Pendiente de decisión.** No se ha seleccionado licencia para este repositorio. El código no tiene licencia hasta que el autor lo determine explícitamente. Para consultas sobre uso o colaboración, contactar al autor antes de utilizar, modificar o redistribuir el código.
+Este proyecto se publica bajo la licencia MIT. Ver el archivo `LICENSE`.
 
 ---
 
@@ -480,7 +480,7 @@ Este proyecto no tiene aún un identificador persistente (DOI) ni publicación f
 ```
 Jules Pintor. Hipócrates — Motor de Apoyo Clínico Computable (SMNC-5+). 
 Prototipo de investigación. Versión 0.5.0. Abril 2026.
-https://github.com/[usuario]/hipocrates
+https://github.com/julespintor-tech/hipocrates
 ```
 
 Un archivo `CITATION.cff` está incluido en este repositorio con los metadatos formales sugeridos.
@@ -495,3 +495,5 @@ Un archivo `CITATION.cff` está incluido en este repositorio con los metadatos f
 - Módulos clínicos: 5 (Bayes SPRT, ABG H-H/Stewart, DCA, PK/TDM Core v2, Sepsis v1)
 - Validación clínica: **ninguna** — prototipo computacional únicamente
 - Despliegue en producción: **no existe**
+docs: update README license and citation link
+
